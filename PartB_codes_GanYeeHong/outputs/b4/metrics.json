@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "indices": [
+    170,
+    346,
+    409,
+    516,
+    536
+  ],
+  "cam_resolution": {
+    "B1 AlexNet-like": [
+      16,
+      16
+    ],
+    "B2 VGG-like": [
+      16,
+      16
+    ],
+    "B3 ResNet-like": [
+      8,
+      8
+    ]
+  },
+  "mean_pairwise_correlation": {
+    "B1 AlexNet-like vs B2 VGG-like": -0.12236504282413388,
+    "B1 AlexNet-like vs B3 ResNet-like": 0.5208326749560291,
+    "B2 VGG-like vs B3 ResNet-like": 0.21243577568927258
+  }
+}

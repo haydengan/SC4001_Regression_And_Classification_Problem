@@ -1,0 +1,15 @@
+# Backups and superseded drafts
+archive/
+
+# Word temporary lock files
+~$*
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/

@@ -1,0 +1,55 @@
+{
+  "seed": 42,
+  "learning_rate": 0.001,
+  "batch_size": 128,
+  "best_epoch": 10,
+  "validation": {
+    "loss": 0.11344711546508865,
+    "accuracy": 0.9637404580152672,
+    "error": 0.0362595419847328,
+    "sensitivity": 0.9897172236503856,
+    "specificity": 0.8888888888888888
+  },
+  "test": {
+    "loss": 0.20055298010508218,
+    "accuracy": 0.9310897435897436,
+    "error": 0.06891025641025639,
+    "sensitivity": 0.958974358974359,
+    "specificity": 0.8846153846153846
+  },
+  "comparison": [
+    {
+      "architecture": "B1 AlexNet-like",
+      "setting": "lr 0.001, batch 128",
+      "loss": 1.0581764808067908,
+      "accuracy": 0.8269230769230769,
+      "error": 0.17307692307692313,
+      "sensitivity": 0.9974358974358974,
+      "specificity": 0.5427350427350427,
+      "trainable_parameters": 99569,
+      "flops": 39063616
+    },
+    {
+      "architecture": "B2 VGG-like",
+      "setting": "lr 0.001, batch 128",
+      "loss": 0.6010974859580015,
+      "accuracy": 0.7948717948717948,
+      "error": 0.20512820512820518,
+      "sensitivity": 1.0,
+      "specificity": 0.452991452991453,
+      "trainable_parameters": 18185,
+      "flops": 19464256
+    },
+    {
+      "architecture": "B3 ResNet-like",
+      "setting": "lr 0.001, batch 128",
+      "loss": 0.20055298010508218,
+      "accuracy": 0.9310897435897436,
+      "error": 0.06891025641025639,
+      "sensitivity": 0.958974358974359,
+      "specificity": 0.8846153846153846,
+      "trainable_parameters": 77169,
+      "flops": 25297024
+    }
+  ]
+}
